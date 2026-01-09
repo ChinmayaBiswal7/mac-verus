@@ -7,26 +7,25 @@ const Services = () => {
         <div id="services" className="py-20 bg-black">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true, margin: "-100px" }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-4xl font-bold text-white mb-4">Our Services</h2>
                     <h2 className="text-4xl font-bold text-white mb-4">Our Services</h2>
                     <div className="h-1 w-24 bg-primary mx-auto rounded shadow-[0_0_15px_rgba(20,184,166,1)]"></div>
                     <p className="text-gray-400 mt-4">Comprehensive technology solutions tailored to solve your unique challenges</p>
                 </motion.div>
 
-                <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div className="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto">
                     {/* Service 1 */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 0, y: 60 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.1 }}
-                        viewport={{ once: true }}
-                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_30px_rgba(20,184,166,0.2)] transition-all duration-300 group"
+                        transition={{ duration: 0.6, delay: 0.1 }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300 group"
                     >
                         <div className="w-12 h-12 bg-primary/10 rounded flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300 shadow-[0_0_15px_rgba(20,184,166,0.1)] group-hover:shadow-[0_0_25px_rgba(20,184,166,0.6)]">
                             <Search className="text-primary group-hover:text-black transition-colors duration-300" size={24} />
@@ -39,11 +38,11 @@ const Services = () => {
 
                     {/* Service 2 */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 0, y: 60 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.2 }}
-                        viewport={{ once: true }}
-                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_30px_rgba(20,184,166,0.2)] transition-all duration-300 group"
+                        transition={{ duration: 0.6, delay: 0.2 }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300 group"
                     >
                         <div className="w-12 h-12 bg-primary/10 rounded flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300 shadow-[0_0_15px_rgba(20,184,166,0.1)] group-hover:shadow-[0_0_25px_rgba(20,184,166,0.6)]">
                             <Code className="text-primary group-hover:text-black transition-colors duration-300" size={24} />
@@ -55,11 +54,11 @@ const Services = () => {
                     </motion.div>
                     {/* Service 3 */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 0, y: 60 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.3 }}
-                        viewport={{ once: true }}
-                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_30px_rgba(20,184,166,0.2)] transition-all duration-300 group"
+                        transition={{ duration: 0.6, delay: 0.3 }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300 group"
                     >
                         <div className="w-12 h-12 bg-primary/10 rounded flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300 shadow-[0_0_15px_rgba(20,184,166,0.1)] group-hover:shadow-[0_0_25px_rgba(20,184,166,0.6)]">
                             <Code className="text-primary group-hover:text-black transition-colors duration-300" size={24} />
@@ -72,11 +71,11 @@ const Services = () => {
 
                     {/* Service 4 */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 0, y: 60 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.4 }}
-                        viewport={{ once: true }}
-                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_30px_rgba(20,184,166,0.2)] transition-all duration-300 group"
+                        transition={{ duration: 0.6, delay: 0.4 }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300 group"
                     >
                         <div className="w-12 h-12 bg-primary/10 rounded flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300 shadow-[0_0_15px_rgba(20,184,166,0.1)] group-hover:shadow-[0_0_25px_rgba(20,184,166,0.6)]">
                             <Code className="text-primary group-hover:text-black transition-colors duration-300" size={24} />
@@ -89,11 +88,11 @@ const Services = () => {
 
                     {/* Service 5 */}
                     <motion.div
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 0, y: 60 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.5 }}
-                        viewport={{ once: true }}
-                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_30px_rgba(20,184,166,0.2)] transition-all duration-300 group"
+                        transition={{ duration: 0.6, delay: 0.5 }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        className="bg-card p-8 rounded-lg border border-gray-800 hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300 group"
                     >
                         <div className="w-12 h-12 bg-primary/10 rounded flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300 shadow-[0_0_15px_rgba(20,184,166,0.1)] group-hover:shadow-[0_0_25px_rgba(20,184,166,0.6)]">
                             <Code className="text-primary group-hover:text-black transition-colors duration-300" size={24} />
@@ -108,10 +107,10 @@ const Services = () => {
                 {/* Why Choose Our Services */}
                 <div className="mt-32 max-w-4xl mx-auto">
                     <motion.div
-                        initial={{ opacity: 0, y: 20 }}
+                        initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}
-                        viewport={{ once: true }}
+                        transition={{ duration: 0.8 }}
+                        viewport={{ once: true, margin: "-100px" }}
                         className="text-center mb-16"
                     >
                         <h2 className="text-4xl font-bold text-white mb-4">Why Choose Our Services?</h2>
@@ -120,11 +119,11 @@ const Services = () => {
 
                     <div className="space-y-6">
                         <motion.div
-                            initial={{ opacity: 0, x: -20 }}
+                            initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.5, delay: 0.1 }}
-                            viewport={{ once: true }}
-                            className="bg-card p-8 rounded-lg border border-gray-800 flex gap-6 items-start hover:border-primary hover:shadow-[0_0_20px_rgba(20,184,166,0.3)] transition-all duration-300"
+                            transition={{ duration: 0.6, delay: 0.1 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            className="bg-card p-8 rounded-lg border border-gray-800 flex gap-6 items-start hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300"
                         >
                             <div className="w-2 h-2 mt-2 rounded-full bg-primary shrink-0"></div>
                             <div>
@@ -134,11 +133,11 @@ const Services = () => {
                         </motion.div>
 
                         <motion.div
-                            initial={{ opacity: 0, x: -20 }}
+                            initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.5, delay: 0.2 }}
-                            viewport={{ once: true }}
-                            className="bg-card p-8 rounded-lg border border-gray-800 flex gap-6 items-start hover:border-primary hover:shadow-[0_0_20px_rgba(20,184,166,0.3)] transition-all duration-300"
+                            transition={{ duration: 0.6, delay: 0.2 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            className="bg-card p-8 rounded-lg border border-gray-800 flex gap-6 items-start hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300"
                         >
                             <div className="w-2 h-2 mt-2 rounded-full bg-primary shrink-0"></div>
                             <div>
@@ -148,11 +147,11 @@ const Services = () => {
                         </motion.div>
 
                         <motion.div
-                            initial={{ opacity: 0, x: -20 }}
+                            initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.5, delay: 0.3 }}
-                            viewport={{ once: true }}
-                            className="bg-card p-8 rounded-lg border border-gray-800 flex gap-6 items-start hover:border-primary hover:shadow-[0_0_20px_rgba(20,184,166,0.3)] transition-all duration-300"
+                            transition={{ duration: 0.6, delay: 0.3 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            className="bg-card p-8 rounded-lg border border-gray-800 flex gap-6 items-start hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300"
                         >
                             <div className="w-2 h-2 mt-2 rounded-full bg-primary shrink-0"></div>
                             <div>
@@ -162,11 +161,11 @@ const Services = () => {
                         </motion.div>
 
                         <motion.div
-                            initial={{ opacity: 0, x: -20 }}
+                            initial={{ opacity: 0, x: -50 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.5, delay: 0.4 }}
-                            viewport={{ once: true }}
-                            className="bg-card p-8 rounded-lg border border-gray-800 flex gap-6 items-start hover:border-primary hover:shadow-[0_0_20px_rgba(20,184,166,0.3)] transition-all duration-300"
+                            transition={{ duration: 0.6, delay: 0.4 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            className="bg-card p-8 rounded-lg border border-gray-800 flex gap-6 items-start hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300"
                         >
                             <div className="w-2 h-2 mt-2 rounded-full bg-primary shrink-0"></div>
                             <div>

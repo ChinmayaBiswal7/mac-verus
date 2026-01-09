@@ -13,10 +13,11 @@ const Navbar = () => {
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-4">
-                            <a href="#home" className="text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                            <a href="#home" className="text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
                             <a href="#about" className="text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">About Us</a>
                             <a href="#services" className="text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">Services</a>
-                            <a href="#team" className="text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">Team</a>
+                            <a href="#projects" className="text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">Projects</a>
+                            <a href="#team" className="text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">Team</a>
                             <a href="#contact" className="text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
                         </div>
                     </div>
@@ -34,10 +35,11 @@ const Navbar = () => {
             {isOpen && (
                 <div className="md:hidden bg-black border-b border-gray-800">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <a href="#home" className="text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                        <a href="#home" className="text-primary block px-3 py-2 rounded-md text-base font-medium">Home</a>
                         <a href="#about" className="text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">About Us</a>
                         <a href="#services" className="text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Services</a>
-                        <a href="#team" className="text-primary block px-3 py-2 rounded-md text-base font-medium">Team</a>
+                        <a href="#projects" className="text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+                        <a href="#team" className="text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Team</a>
                         <a href="#contact" className="text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Contact</a>
                     </div>
                 </div>

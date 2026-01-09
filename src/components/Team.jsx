@@ -30,10 +30,10 @@ const Team = () => {
         <div id="team" className="py-20 bg-black">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
-                    initial={{ opacity: 0, y: 20 }}
+                    initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true, margin: "-100px" }}
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl font-bold text-white mb-4">Our Team</h2>
@@ -44,11 +44,11 @@ const Team = () => {
                     {team.map((member, index) => (
                         <motion.div
                             key={index}
-                            initial={{ opacity: 0, scale: 0.95, y: 30 }}
+                            initial={{ opacity: 0, scale: 0.85, y: 60 }}
                             whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            viewport={{ once: true }}
-                            className="bg-card p-8 rounded-lg text-center border border-gray-800 hover:border-primary hover:shadow-[0_0_30px_rgba(20,184,166,0.2)] transition-all duration-300 group"
+                            transition={{ duration: 0.6, delay: index * 0.15 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            className="bg-card p-8 rounded-lg text-center border border-gray-800 hover:border-primary hover:shadow-[0_0_50px_rgba(20,184,166,0.6)] transition-all duration-300 group"
                         >
                             <div className="w-20 h-20 bg-teal-900/30 rounded-full mx-auto mb-6 flex items-center justify-center group-hover:bg-primary group-hover:text-black transition-colors duration-300 shadow-[0_0_15px_rgba(20,184,166,0.3)] group-hover:shadow-[0_0_25px_rgba(20,184,166,0.6)]">
                                 <User className="text-primary group-hover:text-black transition-colors duration-300" size={32} />
